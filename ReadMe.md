@@ -59,6 +59,10 @@ sudo apt install libmpfr-dev libmpc-dev libgmp-dev e2fsprogs qemu-system-i386 qe
 
 Go into the Toolchain/ directory and run the **BuildIt.sh** script. Then ***source*** the **UseIt.sh** script to put the i686-pc-serenity toolchain in your $PATH.
 
+```
+bash BuildIt.sh && source UseIt.sh
+```
+
 Once you've done both of those, go into the Kernel directory, then run
 **./makeall.sh**, and if nothing breaks too much, take it for a spin by using
 **./run**.
